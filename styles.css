@@ -109,10 +109,6 @@ section .container .user .formBx {
     align-items: top;
     justify-content: top;
 }
-@media screen and (min-width: 480px) {
-    section .formBx {
-        padding: 0%;
-    }
 
 section .container .user .formBx form img {
     width: 100%;
