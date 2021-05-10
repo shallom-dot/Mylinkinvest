@@ -69,10 +69,7 @@ section .container1 {
     left: 0;
     overflow: hidden;
 }
-@media screen and (min-width: 480px) {
-    section .container {
-        background-color: lightgreen;
-    }
+
 section .container .user {
     position: relative;
     top: 0;
@@ -112,6 +109,10 @@ section .container .user .formBx {
     align-items: top;
     justify-content: top;
 }
+@media screen and (min-width: 480px) {
+    section .formBx {
+        padding: 0%;
+    }
 
 section .container .user .formBx form img {
     width: 100%;
