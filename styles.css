@@ -69,7 +69,10 @@ section .container1 {
     left: 0;
     overflow: hidden;
 }
-
+@media screen and (min-width: 480px) {
+    section .container {
+        background-color: lightgreen;
+    }
 section .container .user {
     position: relative;
     top: 0;
@@ -114,7 +117,6 @@ section .container .user .formBx form img {
     width: 100%;
     margin-bottom: 10px;
 }
-
 
 section .container .user .formBx form input {
     position: relative;
@@ -221,4 +223,5 @@ section .container .user .formBx form a:hover {
     height: 10px;
     width: 30px;
 }
+
 
