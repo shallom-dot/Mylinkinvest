@@ -109,7 +109,11 @@ section .container .user .formBx {
     align-items: top;
     justify-content: top;
 }
-
+@media screen and (max-width: 600px) {
+    section .container .user .formBx {
+        background-color: olive;
+    }
+}
 section .container .user .formBx form img {
     width: 100%;
     margin-bottom: 10px;
