@@ -111,7 +111,7 @@ section .container .user .formBx {
 }
 @media screen and (max-width: 600px) {
     section .container .user .formBx {
-        background-color: olive;
+       padding: 0%;
     }
 }
 section .container .user .formBx form img {
